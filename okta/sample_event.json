@@ -1,0 +1,22 @@
+{
+  "eventType": "user.session.start",
+  "actor": {
+    "id": "00u1a0abcdef12345",
+    "type": "User",
+    "displayName": "jane.doe@example.com"
+  },
+  "outcome": {
+    "result": "SUCCESS"
+  },
+  "authenticationContext": {
+    "authenticationMethod": "MFA",
+    "externalSessionId": "102abcxyz"
+  },
+  "client": {
+    "ipAddress": "192.168.1.1",
+    "userAgent": {
+      "rawUserAgent": "Chrome/109.0",
+      "os": "Windows"
+    }
+  }
+}
