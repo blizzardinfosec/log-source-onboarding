@@ -1,0 +1,10 @@
+{
+  "event_type": "CreateAccessKey",
+  "username": "bob",
+  "user_arn": "arn:aws:iam::111122223333:user/bob",
+  "account_id": "111122223333",
+  "source_ip": "203.0.113.25",
+  "region": "us-east-1",
+  "user_agent": "aws-cli/2.7.18",
+  "timestamp": "2025-05-29T15:20:00Z"
+}
