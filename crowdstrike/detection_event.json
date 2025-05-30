@@ -1,0 +1,16 @@
+{
+  "event": "FalconDetectionSummaryEvent",
+  "metadata": {
+    "eventCreationTime": "2025-05-29T18:15:00Z"
+  },
+  "device": {
+    "hostname": "DESKTOP-ENG-007",
+    "user_name": "eng\\alice"
+  },
+  "behavior_id": "b-9988",
+  "technique_id": "T1059.001",
+  "severity": "high",
+  "tactic": "Execution",
+  "file_path": "C:\\Users\\alice\\Downloads\\malicious.ps1",
+  "command_line": "powershell.exe -enc ZQBjAGgAbwAgACcAYQBwAGkAKwByAHUAbgAnAA=="
+}
