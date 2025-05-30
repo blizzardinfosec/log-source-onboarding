@@ -1,0 +1,11 @@
+{
+  "event_type": "SendOnBehalf",
+  "user": "alice@contoso.com",
+  "client_ip": "198.51.100.15",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+  "timestamp": "2025-05-29T17:30:00",
+  "record_type": "ExchangeAdmin",
+  "workload": "Exchange",
+  "target_object": "ceo@contoso.com",
+  "result": "Success"
+}
