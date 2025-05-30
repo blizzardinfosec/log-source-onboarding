@@ -1,0 +1,11 @@
+{
+  "event_type": "ProcessCreate",
+  "timestamp": "2025-05-29 16:45:00.000",
+  "host": "WIN-HOST01",
+  "user": "WIN-HOST01\\bob",
+  "image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "command_line": "powershell.exe -enc ZQBjAGgAbwAgACcAbwBoACcA",
+  "parent_image": "C:\\Windows\\explorer.exe",
+  "process_id": "2348",
+  "parent_pid": "1000"
+}
