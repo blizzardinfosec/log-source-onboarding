@@ -1,0 +1,25 @@
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "EXAMPLEID",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333",
+    "userName": "bob"
+  },
+  "eventTime": "2025-05-29T15:20:00Z",
+  "eventSource": "iam.amazonaws.com",
+  "eventName": "CreateAccessKey",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.25",
+  "userAgent": "aws-cli/2.7.18",
+  "requestParameters": {
+    "userName": "bob"
+  },
+  "responseElements": {
+    "accessKey": {
+      "accessKeyId": "AKIAEXAMPLE",
+      "status": "Active"
+    }
+  }
+}
