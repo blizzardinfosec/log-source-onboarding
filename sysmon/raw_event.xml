@@ -1,0 +1,22 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2025-05-29T16:45:00.0000000Z" />
+    <Computer>WIN-HOST01</Computer>
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-05-29 16:45:00.000</Data>
+    <Data Name="ProcessGuid">{abc123-4567}</Data>
+    <Data Name="ProcessId">2348</Data>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="CommandLine">powershell.exe -enc ZQBjAGgAbwAgACcAbwBoACcA</Data>
+    <Data Name="CurrentDirectory">C:\Users\bob\Desktop</Data>
+    <Data Name="User">WIN-HOST01\\bob</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="ParentCommandLine">explorer.exe</Data>
+    <Data Name="ParentProcessGuid">{def456-8910}</Data>
+    <Data Name="ParentProcessId">1000</Data>
+  </EventData>
+</Event>
